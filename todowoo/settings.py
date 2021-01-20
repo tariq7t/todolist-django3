@@ -66,8 +66,12 @@ WSGI_APPLICATION = 'todowoo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd2jjc9o571obsk',
+        'HOST': 'ec2-52-205-61-60.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'qpaftxzcgpebbz',
+        'PASSWORD': '544c89b682a85e68c63a23f91e47c86377aa1166a01582280a6074dde24363fc'
     }
 }
 
